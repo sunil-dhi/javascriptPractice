@@ -1,3 +1,8 @@
+
+//array method
+//flatmap method
+
+//this method is the combination of map and flat method
 let cart=[{
     name:"mobile",
     qty:2,
@@ -20,4 +25,4 @@ let newCart=cart.flatMap(item=>{
     else{ [item]}
 })
 
-console.log(newCart)
+console.warn(newCart)
