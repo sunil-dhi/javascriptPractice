@@ -1,0 +1,30 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    
+    background-color: aqua;
+   }
+
+   .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 25px;
+    padding: 35px;
+    border: 2px solid beige;
+   }
+   #btnn{
+    padding: 6px;
+    /* background-color: rgb(138, 78, 194); */
+    /* color: white; */
+    cursor: pointer;
+    border-radius: 15px;
+   }
+   #output{
+    font-size: larger;
+    font-weight: bolder;
+   }
