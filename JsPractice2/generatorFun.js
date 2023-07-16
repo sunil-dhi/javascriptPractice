@@ -18,13 +18,12 @@ function *generator(){
 let g=generator();
 // console.log([...g])   ///[1,2,3]
 
-console.log(g.next())               
+console.log(g.next())                    // {value: 1, done: false}
 console.log(g.next())
 console.log(g.next())
 console.log(g.next())          
+                                     // {value: 2, done: false}
+                                        //  {value: 3, done: false}
+                                        // {value: undefined, done: true}
 
 
-// {value: 1, done: false}
-// {value: 2, done: false}
-//  {value: 3, done: false}
-// {value: undefined, done: true}
