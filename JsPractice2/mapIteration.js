@@ -20,3 +20,14 @@ const ageMap2 = new Map([
 //   Alan is 34 years old!
 //   Bill is 10 years old!
 //   Sam is 9 years old!
+
+
+
+///map to array conversion. there are two ways using .from and using spread opr.
+const map = new Map();
+map.set('milk', 200);
+map.set("tea", 300);
+map.set('coffee', 500);
+
+console.log(Array.from(map));
+console.log([...map]);
