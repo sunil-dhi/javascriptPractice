@@ -18,7 +18,7 @@ function solution(A) {
 
 //   method-1 using Set
 //  with O(n) complexity
-
+/////////////////////OPTIMIZED SOLUTION/////////////////////
 function solution2(A){
 let set=new Set(A);
 let x=1;
