@@ -2,9 +2,9 @@
 for (let i = 0; i <100; i++) {
     let f = i % 3 == 0,
       b = i % 5 == 0;
-    // console.log(f ? (b?'fizzbuzz':'Fizz') : b ? 'Buzz' : i)
-    if(f)console.log('fizz');
-    else if(b) console.log('buzz');
-    else console.log(i)
+    console.log(f ? (b?'fizzbuzz':'Fizz') : b ? 'Buzz' : i)
+    // if(f)console.log('fizz');
+    // else if(b) console.log('buzz');
+    // else console.log(i)
   }
 
