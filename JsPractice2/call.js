@@ -28,8 +28,8 @@ let personNew={
     age:22
 }
 
-let fun=function(){
-    console.log(this.name+''+this.age)
+let fun=function(country, state){
+    console.log(this.name+''+this.age + ' is from '+country+' and state ' +state)
 }
 
 let person3={
@@ -41,3 +41,9 @@ let person3={
 // output: sunil 22
 fun.call(person3)
 // output: jon 20
+
+fun.call(personNew,'india','haryana')
+// output: sunil22 is from india and state haryana
+
+
+
