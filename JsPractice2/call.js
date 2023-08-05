@@ -19,4 +19,4 @@ let person={
   
   person.fun.call(person2)
 
-  output: jony 26
+//   output: jony 26
