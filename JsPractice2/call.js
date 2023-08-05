@@ -20,3 +20,24 @@ let person={
   person.fun.call(person2)
 
 //   output: jony 26
+
+//call method is used to use method in different objects. it is also known as function borrowing.
+
+let personNew={
+    name:'sunil',
+    age:22
+}
+
+let fun=function(){
+    console.log(this.name+''+this.age)
+}
+
+let person3={
+    name:'jon',
+    age:20
+}
+
+ fun.call(personNew)   
+// output: sunil 22
+fun.call(person3)
+// output: jon 20
