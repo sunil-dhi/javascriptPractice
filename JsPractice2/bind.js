@@ -6,11 +6,11 @@ let students={
     age:18
 }
 
-function bindd(){
-    console.log(this.name+' '+this.gender +' '+this.age)
+function bindd(country,state){
+    console.log(this.name+' '+this.gender +' '+ this.age + country + state)
 }
 
-let res=bindd.bind(students)
+let res=bindd.bind(students,'india','ambala')
 console.log(res)    //it gives a function as output to print value we need to call function again
 res()
 
