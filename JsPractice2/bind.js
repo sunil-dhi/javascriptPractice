@@ -13,3 +13,5 @@ function bindd(){
 let res=bindd.bind(students)
 console.log(res)    //it gives a function as output to print value we need to call function again
 res()
+
+// output:sunil dhiman male 18
