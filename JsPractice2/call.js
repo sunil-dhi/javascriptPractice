@@ -12,4 +12,11 @@ let person={
  person.fun()                                                  
 //    output: sunil 25
 
-      
+  let person2={
+    name:'jony',
+    age:26
+  }   
+  
+  person.fun.call(person2)
+
+  output: jony 26
