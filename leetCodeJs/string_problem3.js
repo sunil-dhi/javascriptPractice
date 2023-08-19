@@ -10,3 +10,5 @@ var groupAnagrams = function(strs) {
     return Object.values(map)
 };
 console.log(groupAnagrams(['ate','eat','rat','tar','rta','man']))
+
+// output:[['ate','eat'],['rat','tar','rta'],['man']]
